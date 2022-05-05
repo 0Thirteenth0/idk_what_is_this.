@@ -100,10 +100,7 @@ int main(int argc, char **argv)
             system("clear");//clears terminal.
             while (true)
             {
-                p.print_grid(c); 
-                while (count < 10000000) //loop to slow down the process.
-                    count++;
-                count = 0;
+                p.print_grid(c);
                 c++;
                 usleep(27900);// set terminal to sleep 1/100 sec.
             }
