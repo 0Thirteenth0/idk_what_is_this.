@@ -72,6 +72,7 @@ public:
         y = c % 10;
         for (int i = 0; i < size; i++)
         {
+            y += 1;
             for (int j = 0; j < length; j++)
             {
                 if (y >= s)
