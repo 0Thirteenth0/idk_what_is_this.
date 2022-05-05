@@ -104,7 +104,7 @@ int main(int argc, char **argv)
                     count++;
                 count = 0;
                 c++;
-                usleep(25000);// set terminal to sleep 1/100 sec.
+                usleep(27900);// set terminal to sleep 1/100 sec.
             }
         }
     }
