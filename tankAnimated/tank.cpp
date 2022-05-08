@@ -413,7 +413,6 @@ public:
             }
             cout << endl;
         }
-        cout << "tick : " << tic << endl;
         cout << "\033[0;30mTo stop the program:\nOn window: ctrl+c\nMac: ^+c\n\033[0m";
     }
 };
